@@ -1,0 +1,86 @@
+version: '2'
+services:
+    httpd1:
+        build: ./httpd
+        container_name: httpd1
+        ports:
+          - '8080:80'
+          - '8443:443'
+        volumes:
+          - ./httpd/index/html:/var/www/html
+          - ./logs:/var/log/apache2
+          - ./httpd/apache2.conf:/etc/apache2/apache2.conf
+          - ./httpd/default:/etc/apache2/sites-available/000-default.conf
+          - ./httpd/default:/etc/apache2/sites-available/default-ssl.conf
+          - ./postfix/main.cf:/etc/postfix/main.cf 
+          - ./postfix/virtual:/etc/postfix/virtual
+          - ./postfix/aliases:/etc/aliases
+          - ./script/initial.sh:/script/initial.sh
+          - ./script/tr:/var/spool/cron/crontabs/tr
+        depends_on:
+          - phpfpm
+    httpd2:
+        build: ./httpd
+        container_name: httpd2
+        ports:
+          - '8081:80'
+          - '8444:443'
+        volumes:
+          - ./httpd/index/html1:/var/www/html
+          - ./logs:/var/log/apache2
+          - ./httpd/apache2.conf:/etc/apache2/apache2.conf
+          - ./httpd/default:/etc/apache2/sites-available/000-default.conf
+          - ./httpd/default:/etc/apache2/sites-available/default-ssl.conf
+          - ./postfix/main.cf:/etc/postfix/main.cf 
+          - ./postfix/virtual:/etc/postfix/virtual
+          - ./postfix/aliases:/etc/aliases
+          - ./script/initial.sh:/script/initial.sh
+          - ./script/tr:/var/spool/cron/crontabs/tr
+        depends_on:
+          - phpfpm
+    haproxy:
+        image: haproxy  
+        ports:
+          - '80:80'
+        container_name: haproxy
+        volumes:
+          - ./haproxy:/var/run/docker.sock
+          - ./haproxy:/usr/local/etc/haproxy/haproxy.cfg    
+        links:
+          - httpd1
+          - httpd2
+    phpfpm:
+        build: ./php
+        container_name: phpfpm-app
+        volumes:
+          - ./html:/var/www/html
+        depends_on:
+        - mysql
+    mysql:
+        container_name: mysql
+        build: ./mysql
+        ports:
+            - 3306:3306
+        volumes:
+            - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: logs
+            MYSQL_USER: tr
+            MYSQL_PASSWORD: tr
+    redis:
+        image: redis:alpine
+        command: redis-server --requirepass redis
+        container_name: redis
+        ports: 
+          - '6379:6379' 
+    ftp:
+        image: vimagick/pure-ftpd
+        container_name: ftp-server
+        ports:
+          - "21:21"
+        volumes:
+          - ./data/ftpuser:/home/ftpuser
+          - ./data/pure-ftpd:/etc/pure-ftpd
+        privileged: true
+        restart: always

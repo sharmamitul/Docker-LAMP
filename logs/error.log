@@ -1,0 +1,932 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 14:55:43.009745 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 14:55:43.009824 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 14:55:44.003254 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 14:55:44.003302 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 14:55:44.005687 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 14:55:44.005715 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 14:55:44.007124 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 14:55:44.007144 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 14:55:44.007718 2017] [:error] [pid 21] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 14:55:44.007758 2017] [:error] [pid 21] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 14:55:44.008221 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 14:55:44.008262 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 14:55:44.008786 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 14:55:44.008803 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 14:55:44.012100 2017] [:error] [pid 21] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 14:55:44.012182 2017] [:error] [pid 21] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 14:55:44.012408 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 14:55:44.012435 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 14:55:44.012554 2017] [:error] [pid 22] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 14:55:44.012581 2017] [:error] [pid 22] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 14:55:44.012673 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 14:55:44.012699 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 14:55:44.012786 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 14:55:44.012818 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 14:56:01.887756 2017] [:notice] [pid 21] mod_log_sql: child established database connection
+[Sun Sep 17 14:56:01.887974 2017] [:error] [pid 21] mysql_query returned (1)
+[Sun Sep 17 14:56:01.887980 2017] [:error] [pid 21] table does not exist, preserving query
+[Sun Sep 17 14:56:01.887982 2017] [:error] [pid 21] table doesn't exist...creating now
+[Sun Sep 17 14:56:01.909518 2017] [:error] [pid 21] tables successfully created - retrying query
+[Sun Sep 17 14:56:01.923175 2017] [:notice] [pid 21] query successful after table creation
+[Sun Sep 17 14:56:01.923478 2017] [:error] [pid 21] mysql_query returned (1)
+[Sun Sep 17 14:56:01.923497 2017] [:error] [pid 21] table does not exist, preserving query
+[Sun Sep 17 14:56:01.923500 2017] [:error] [pid 21] table doesn't exist...creating now
+[Sun Sep 17 14:56:01.923703 2017] [:error] [pid 21] failed to create table: score_board
+[Sun Sep 17 14:56:01.923715 2017] [:error] [pid 21] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 14:56:01.923761 2017] [:error] [pid 21] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 14:56:01.923997 2017] [:error] [pid 21] mysql_query returned (1)
+[Sun Sep 17 14:56:01.924007 2017] [:error] [pid 21] table does not exist, preserving query
+[Sun Sep 17 14:56:01.924010 2017] [:error] [pid 21] table doesn't exist...creating now
+[Sun Sep 17 14:56:01.924143 2017] [:error] [pid 21] failed to create table: score_board
+[Sun Sep 17 14:56:01.924156 2017] [:error] [pid 21] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 14:56:01.924174 2017] [:error] [pid 21] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 14:56:09.498702 2017] [:notice] [pid 20] mod_log_sql: child established database connection
+[Sun Sep 17 14:56:09.504216 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 14:56:09.504255 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 14:56:09.504259 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 14:56:09.504405 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 14:56:09.504414 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 14:56:09.504456 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 14:56:09.505028 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 14:56:09.505039 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 14:56:09.505042 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 14:56:09.505102 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 14:56:09.505108 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 14:56:09.505126 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 14:56:11.007007 2017] [:notice] [pid 20] mod_log_sql: child established database connection
+[Sun Sep 17 14:56:11.008769 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 14:56:11.008786 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 14:56:11.008789 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 14:56:11.008922 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 14:56:11.008932 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 14:56:11.008963 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 14:56:11.009157 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 14:56:11.009165 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 14:56:11.009168 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 14:56:11.009318 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 14:56:11.009328 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 14:56:11.009343 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 14:56:11.804765 2017] [:notice] [pid 19] mod_log_sql: child established database connection
+[Sun Sep 17 14:56:11.808353 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 14:56:11.808384 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 14:56:11.808387 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 14:56:11.808541 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 14:56:11.808561 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 14:56:11.808592 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 14:56:11.808803 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 14:56:11.808811 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 14:56:11.808814 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 14:56:11.808945 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 14:56:11.808954 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 14:56:11.808969 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 16:57:10.329676 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Sep 17 16:57:10.362090 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 17:02:04.002802 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 17:02:04.002852 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 17:02:04.003948 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:02:04.003971 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:02:04.005272 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:02:04.005292 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:02:04.005584 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:02:04.005601 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:02:04.006616 2017] [:error] [pid 22] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:02:04.006632 2017] [:error] [pid 22] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:02:04.006746 2017] [:error] [pid 21] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:02:04.006758 2017] [:error] [pid 21] mod_log_sql: child spawned but unable to open database link
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 17:02:05.003794 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 17:02:05.003847 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 17:02:05.009483 2017] [:error] [pid 21] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:02:05.009714 2017] [:error] [pid 21] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:02:05.009795 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:02:05.009812 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:02:05.010450 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:02:05.010470 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:02:05.012108 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:02:05.012128 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:02:05.013160 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:02:05.013175 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:02:20.605915 2017] [:notice] [pid 21] mod_log_sql: child established database connection
+[Sun Sep 17 17:02:20.606256 2017] [:error] [pid 21] mysql_query returned (1)
+[Sun Sep 17 17:02:20.606269 2017] [:error] [pid 21] table does not exist, preserving query
+[Sun Sep 17 17:02:20.606272 2017] [:error] [pid 21] table doesn't exist...creating now
+[Sun Sep 17 17:02:20.628951 2017] [:error] [pid 21] tables successfully created - retrying query
+[Sun Sep 17 17:02:20.639121 2017] [:notice] [pid 21] query successful after table creation
+[Sun Sep 17 17:02:20.639460 2017] [:error] [pid 21] mysql_query returned (1)
+[Sun Sep 17 17:02:20.639493 2017] [:error] [pid 21] table does not exist, preserving query
+[Sun Sep 17 17:02:20.639497 2017] [:error] [pid 21] table doesn't exist...creating now
+[Sun Sep 17 17:02:20.639638 2017] [:error] [pid 21] failed to create table: score_board
+[Sun Sep 17 17:02:20.639655 2017] [:error] [pid 21] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:02:20.639707 2017] [:error] [pid 21] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:02:20.639943 2017] [:error] [pid 21] mysql_query returned (1)
+[Sun Sep 17 17:02:20.639956 2017] [:error] [pid 21] table does not exist, preserving query
+[Sun Sep 17 17:02:20.639959 2017] [:error] [pid 21] table doesn't exist...creating now
+[Sun Sep 17 17:02:20.640080 2017] [:error] [pid 21] failed to create table: score_board
+[Sun Sep 17 17:02:20.640091 2017] [:error] [pid 21] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:02:20.640115 2017] [:error] [pid 21] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:02:27.922738 2017] [:notice] [pid 20] mod_log_sql: child established database connection
+[Sun Sep 17 17:02:27.924946 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 17:02:27.924964 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 17:02:27.924968 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 17:02:27.925048 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 17:02:27.925056 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:02:27.925096 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:02:27.925564 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 17:02:27.925575 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 17:02:27.925579 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 17:02:27.925666 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 17:02:27.925673 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:02:27.925689 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:02:35.983259 2017] [:notice] [pid 17] mod_log_sql: child established database connection
+[Sun Sep 17 17:02:36.001638 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 17:02:36.001672 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 17:02:36.001677 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 17:02:36.001814 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 17:02:36.001825 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:02:36.001884 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:02:36.002146 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 17:02:36.002162 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 17:02:36.002166 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 17:02:36.002302 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 17:02:36.002312 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:02:36.002337 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:02:54.545681 2017] [:notice] [pid 18] mod_log_sql: child established database connection
+[Sun Sep 17 17:02:54.549535 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 17:02:54.549556 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 17:02:54.549560 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 17:02:54.549645 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 17:02:54.549655 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:02:54.549693 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:02:54.549885 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 17:02:54.549894 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 17:02:54.549898 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 17:02:54.550304 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 17:02:54.550316 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:02:54.550339 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:02:57.453292 2017] [:notice] [pid 16] mod_log_sql: child established database connection
+[Sun Sep 17 17:02:57.455056 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 17:02:57.455072 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 17:02:57.455075 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 17:02:57.455196 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 17:02:57.455202 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:02:57.455231 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:02:57.455441 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 17:02:57.455446 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 17:02:57.455448 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 17:02:57.455534 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 17:02:57.455564 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:02:57.455581 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:03:00.269470 2017] [:notice] [pid 17] mod_log_sql: child established database connection
+[Sun Sep 17 17:03:00.271254 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 17:03:00.271274 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 17:03:00.271280 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 17:03:00.271434 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 17:03:00.271447 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:03:00.271490 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:03:00.271691 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 17:03:00.271725 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 17:03:00.271728 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 17:03:00.271897 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 17:03:00.271909 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:03:00.271985 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:03:32.352313 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Sep 17 17:03:32.382489 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 17:04:24.013244 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 17:04:24.013315 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 17:04:24.033663 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:04:24.033690 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:04:24.033821 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:04:24.033837 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:04:24.033945 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:04:24.033961 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:04:24.034066 2017] [:error] [pid 21] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:04:24.034081 2017] [:error] [pid 21] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:04:24.034186 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:04:24.034216 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 17:04:25.003187 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 17:04:25.003243 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 17:04:25.006175 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:04:25.006203 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:04:25.007824 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:04:25.007880 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:04:25.008278 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:04:25.008298 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:04:25.008417 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:04:25.008432 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:04:25.009857 2017] [:error] [pid 22] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:04:25.009884 2017] [:error] [pid 22] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:04:51.581590 2017] [:notice] [pid 16] mod_log_sql: child established database connection
+[Sun Sep 17 17:04:51.581946 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 17:04:51.581959 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 17:04:51.581964 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 17:04:51.605681 2017] [:error] [pid 16] tables successfully created - retrying query
+[Sun Sep 17 17:04:51.616118 2017] [:notice] [pid 16] query successful after table creation
+[Sun Sep 17 17:04:51.616391 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 17:04:51.616403 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 17:04:51.616406 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 17:04:51.616550 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 17:04:51.616562 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:04:51.616608 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:04:51.616822 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 17:04:51.616832 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 17:04:51.616835 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 17:04:51.616968 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 17:04:51.616979 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:04:51.616998 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:04:56.033572 2017] [:notice] [pid 16] mod_log_sql: child established database connection
+[Sun Sep 17 17:04:56.037026 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 17:04:56.037042 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 17:04:56.037046 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 17:04:56.037293 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 17:04:56.037302 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:04:56.037340 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:04:56.038025 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 17:04:56.038042 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 17:04:56.038046 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 17:04:56.038138 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 17:04:56.038144 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:04:56.038164 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:04:57.489057 2017] [:notice] [pid 17] mod_log_sql: child established database connection
+[Sun Sep 17 17:04:57.492450 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 17:04:57.492472 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 17:04:57.492476 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 17:04:57.492614 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 17:04:57.492626 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:04:57.492669 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:04:57.492885 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 17:04:57.492896 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 17:04:57.492900 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 17:04:57.493032 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 17:04:57.493051 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:04:57.493077 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:04:58.570794 2017] [:notice] [pid 19] mod_log_sql: child established database connection
+[Sun Sep 17 17:04:58.572619 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 17:04:58.572640 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 17:04:58.572645 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 17:04:58.572783 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 17:04:58.572795 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:04:58.572832 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:04:58.573045 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 17:04:58.573065 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 17:04:58.573069 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 17:04:58.573178 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 17:04:58.573189 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:04:58.573208 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:04:59.497568 2017] [:notice] [pid 18] mod_log_sql: child established database connection
+[Sun Sep 17 17:04:59.501093 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 17:04:59.501112 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 17:04:59.501115 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 17:04:59.501214 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 17:04:59.501225 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:04:59.501254 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:04:59.501413 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 17:04:59.501423 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 17:04:59.501426 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 17:04:59.501519 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 17:04:59.501530 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:04:59.501547 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:05:00.433325 2017] [:notice] [pid 20] mod_log_sql: child established database connection
+[Sun Sep 17 17:05:00.437043 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 17:05:00.437061 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 17:05:00.437064 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 17:05:00.437201 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 17:05:00.437209 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:05:00.437235 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:05:00.437428 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 17:05:00.437438 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 17:05:00.437440 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 17:05:00.437568 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 17:05:00.437576 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:05:00.437590 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:05:23.592937 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Sep 17 17:05:23.601265 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 17:07:18.003205 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 17:07:18.003257 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 17:07:18.003644 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 17:07:18.003686 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 17:07:18.009400 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:07:18.009425 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:07:18.009512 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:07:18.009527 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:07:18.009628 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:07:18.009645 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:07:18.010571 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:07:18.010587 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:07:18.011688 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:07:18.011713 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:07:18.012587 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:07:18.012603 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:07:18.013758 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:07:18.013775 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:07:18.013976 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:07:18.013991 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:07:18.015424 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:07:18.015442 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:07:18.025812 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:07:18.025860 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:07:28.630678 2017] [:notice] [pid 19] mod_log_sql: child established database connection
+[Sun Sep 17 17:07:28.631107 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 17:07:28.631122 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 17:07:28.631127 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 17:07:28.638063 2017] [:error] [pid 19] tables successfully created - retrying query
+[Sun Sep 17 17:07:28.642797 2017] [:notice] [pid 19] query successful after table creation
+[Sun Sep 17 17:07:28.643041 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 17:07:28.643051 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 17:07:28.643054 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 17:07:28.643189 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 17:07:28.643200 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:07:28.643235 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:07:28.643452 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 17:07:28.643461 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 17:07:28.643464 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 17:07:28.643587 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 17:07:28.643598 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:07:28.643618 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:07:32.404353 2017] [:notice] [pid 18] mod_log_sql: child established database connection
+[Sun Sep 17 17:07:32.410103 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 17:07:32.410121 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 17:07:32.410126 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 17:07:32.410221 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 17:07:32.410231 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:07:32.410304 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:07:32.410507 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 17:07:32.410516 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 17:07:32.410519 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 17:07:32.410904 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 17:07:32.410916 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:07:32.410939 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:07:33.483207 2017] [:notice] [pid 18] mod_log_sql: child established database connection
+[Sun Sep 17 17:07:33.486820 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 17:07:33.486846 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 17:07:33.486851 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 17:07:33.486999 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 17:07:33.487010 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:07:33.487054 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:07:33.487310 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 17:07:33.487325 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 17:07:33.487329 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 17:07:33.487449 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 17:07:33.487462 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:07:33.487552 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:07:34.300580 2017] [:notice] [pid 19] mod_log_sql: child established database connection
+[Sun Sep 17 17:07:34.304201 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 17:07:34.304218 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 17:07:34.304221 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 17:07:34.304366 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 17:07:34.304377 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:07:34.304406 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:07:34.304617 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 17:07:34.304627 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 17:07:34.304630 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 17:07:34.304755 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 17:07:34.304766 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:07:34.304783 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:07:35.058039 2017] [:notice] [pid 17] mod_log_sql: child established database connection
+[Sun Sep 17 17:07:35.059861 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 17:07:35.059882 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 17:07:35.059887 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 17:07:35.060034 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 17:07:35.060049 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:07:35.060085 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:07:35.060317 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 17:07:35.060325 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 17:07:35.060356 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 17:07:35.060525 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 17:07:35.060534 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:07:35.060552 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:08:06.211943 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Sep 17 17:08:06.247925 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 17:15:30.002858 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 17:15:30.002909 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 17:15:30.005000 2017] [:error] [pid 23] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:15:30.005018 2017] [:error] [pid 23] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:15:30.005923 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:15:30.005938 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:15:30.006095 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:15:30.006117 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:15:30.006940 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:15:30.006955 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:15:30.007477 2017] [:error] [pid 22] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:15:30.007509 2017] [:error] [pid 22] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:17:38.724547 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 17:19:25.003099 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 17:19:25.003163 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 17:19:50.853073 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 17:20:20.004177 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 17:20:20.004238 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 17:20:20.005717 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:20:20.005740 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:20:20.005877 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:20:20.005894 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:20:20.006185 2017] [:error] [pid 21] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:20:20.006206 2017] [:error] [pid 21] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:20:20.007340 2017] [:error] [pid 22] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:20:20.007348 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:20:20.007366 2017] [:error] [pid 22] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:20:20.007372 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:21:01.897854 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.7. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 17:21:54.008487 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 17:21:54.008793 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 17:21:54.009286 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 17:21:54.009429 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 17:21:54.016018 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:21:54.016050 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:21:54.016188 2017] [:error] [pid 22] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:21:54.016209 2017] [:error] [pid 22] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:21:54.016323 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:21:54.016344 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:21:54.016450 2017] [:error] [pid 21] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:21:54.016627 2017] [:error] [pid 21] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:21:54.016595 2017] [:error] [pid 23] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:21:54.016693 2017] [:error] [pid 23] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:21:54.017241 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:21:54.017272 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:21:54.017494 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:21:54.017518 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:21:54.018471 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:21:54.018489 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:21:54.018531 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:21:54.018549 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:21:54.019722 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 17:21:54.019738 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 17:22:01.541401 2017] [:notice] [pid 20] mod_log_sql: child established database connection
+[Sun Sep 17 17:22:01.541657 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 17:22:01.541668 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 17:22:01.541671 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 17:22:01.565621 2017] [:error] [pid 20] tables successfully created - retrying query
+[Sun Sep 17 17:22:01.569532 2017] [:notice] [pid 20] query successful after table creation
+[Sun Sep 17 17:22:01.569762 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 17:22:01.569772 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 17:22:01.569775 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 17:22:01.569886 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 17:22:01.569897 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:01.571969 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:22:01.572202 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 17:22:01.572209 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 17:22:01.572211 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 17:22:01.572292 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 17:22:01.572298 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:01.572314 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:22:11.134193 2017] [:notice] [pid 18] mod_log_sql: child established database connection
+[Sun Sep 17 17:22:11.139795 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 17:22:11.139828 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 17:22:11.139834 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 17:22:11.140450 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 17:22:11.140548 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:11.140632 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:22:11.140993 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 17:22:11.141007 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 17:22:11.141012 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 17:22:11.141123 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 17:22:11.141152 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:11.141182 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:22:12.862400 2017] [:notice] [pid 19] mod_log_sql: child established database connection
+[Sun Sep 17 17:22:12.863942 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 17:22:12.863957 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 17:22:12.863960 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 17:22:12.864124 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 17:22:12.864135 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:12.864171 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:22:12.864373 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 17:22:12.864382 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 17:22:12.864385 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 17:22:12.864524 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 17:22:12.864534 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:12.864547 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:22:13.780222 2017] [:notice] [pid 19] mod_log_sql: child established database connection
+[Sun Sep 17 17:22:13.783792 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 17:22:13.783807 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 17:22:13.783809 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 17:22:13.783928 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 17:22:13.783938 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:13.783962 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:22:13.784154 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 17:22:13.784165 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 17:22:13.784168 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 17:22:13.784296 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 17:22:13.784305 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:13.784321 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:22:14.571398 2017] [:notice] [pid 22] mod_log_sql: child established database connection
+[Sun Sep 17 17:22:14.575436 2017] [:error] [pid 22] mysql_query returned (1)
+[Sun Sep 17 17:22:14.575528 2017] [:error] [pid 22] table does not exist, preserving query
+[Sun Sep 17 17:22:14.575534 2017] [:error] [pid 22] table doesn't exist...creating now
+[Sun Sep 17 17:22:14.575718 2017] [:error] [pid 22] failed to create table: score_board
+[Sun Sep 17 17:22:14.575728 2017] [:error] [pid 22] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:14.575759 2017] [:error] [pid 22] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:22:14.575986 2017] [:error] [pid 22] mysql_query returned (1)
+[Sun Sep 17 17:22:14.576004 2017] [:error] [pid 22] table does not exist, preserving query
+[Sun Sep 17 17:22:14.576008 2017] [:error] [pid 22] table doesn't exist...creating now
+[Sun Sep 17 17:22:14.576193 2017] [:error] [pid 22] failed to create table: score_board
+[Sun Sep 17 17:22:14.576212 2017] [:error] [pid 22] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:14.576289 2017] [:error] [pid 22] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:22:15.333521 2017] [:notice] [pid 16] mod_log_sql: child established database connection
+[Sun Sep 17 17:22:15.336961 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 17:22:15.336976 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 17:22:15.336979 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 17:22:15.337084 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 17:22:15.337094 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:15.337119 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:22:15.337279 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 17:22:15.337288 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 17:22:15.337290 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 17:22:15.337390 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 17:22:15.337400 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 17:22:15.337413 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 17:56:29.104457 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Sep 17 17:56:29.107745 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.7. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 18:39:31.005488 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 18:39:31.005538 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 18:39:31.016692 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:39:31.016720 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:39:31.018062 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:39:31.018087 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:39:31.018176 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:39:31.018196 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:39:31.021275 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:39:31.021314 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:39:31.023966 2017] [:error] [pid 15] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:39:31.024140 2017] [:error] [pid 15] mod_log_sql: child spawned but unable to open database link
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 18:39:32.003552 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:39:32.003575 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:39:32.008931 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 18:39:32.008974 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 18:39:32.010518 2017] [:error] [pid 22] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:39:32.010537 2017] [:error] [pid 22] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:39:32.011447 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:39:32.011462 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:39:32.011541 2017] [:error] [pid 23] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:39:32.011557 2017] [:error] [pid 23] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:39:32.012909 2017] [:error] [pid 21] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:39:32.012931 2017] [:error] [pid 21] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:53:13.173438 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Sep 17 18:53:13.178074 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.7. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 18:59:47.006949 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 18:59:47.007266 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 18:59:47.016439 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:59:47.016469 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:59:47.016591 2017] [:error] [pid 15] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:59:47.016610 2017] [:error] [pid 15] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:59:47.017578 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:59:47.017598 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:59:47.017677 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:59:47.017694 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:59:47.018906 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:59:47.018945 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 18:59:48.003890 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 18:59:48.003940 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 18:59:48.007777 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:59:48.007798 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:59:48.008903 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:59:48.008918 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:59:48.009864 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:59:48.009877 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:59:48.010935 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:59:48.010953 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 18:59:48.012793 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 18:59:48.012811 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:00:05.432947 2017] [:notice] [pid 16] mod_log_sql: child established database connection
+[Sun Sep 17 19:00:05.433314 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 19:00:05.433327 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 19:00:05.433330 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 19:00:05.440711 2017] [:error] [pid 16] tables successfully created - retrying query
+[Sun Sep 17 19:00:05.461168 2017] [:notice] [pid 16] query successful after table creation
+[Sun Sep 17 19:00:05.461549 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 19:00:05.461561 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 19:00:05.461564 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 19:00:05.461714 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 19:00:05.461725 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:05.462083 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:05.462324 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 19:00:05.462333 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 19:00:05.462336 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 19:00:05.462480 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 19:00:05.462488 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:05.462506 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:07.516286 2017] [:notice] [pid 19] mod_log_sql: child established database connection
+[Sun Sep 17 19:00:07.521807 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 19:00:07.521837 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 19:00:07.521843 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 19:00:07.521936 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 19:00:07.521947 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:07.521994 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:07.522210 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 19:00:07.522221 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 19:00:07.522226 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 19:00:07.522309 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 19:00:07.522319 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:07.522340 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:08.539385 2017] [:notice] [pid 15] mod_log_sql: child established database connection
+[Sun Sep 17 19:00:08.543187 2017] [:error] [pid 15] mysql_query returned (1)
+[Sun Sep 17 19:00:08.543212 2017] [:error] [pid 15] table does not exist, preserving query
+[Sun Sep 17 19:00:08.543217 2017] [:error] [pid 15] table doesn't exist...creating now
+[Sun Sep 17 19:00:08.543391 2017] [:error] [pid 15] failed to create table: score_board
+[Sun Sep 17 19:00:08.543403 2017] [:error] [pid 15] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:08.543469 2017] [:error] [pid 15] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:08.543866 2017] [:error] [pid 15] mysql_query returned (1)
+[Sun Sep 17 19:00:08.543888 2017] [:error] [pid 15] table does not exist, preserving query
+[Sun Sep 17 19:00:08.543894 2017] [:error] [pid 15] table doesn't exist...creating now
+[Sun Sep 17 19:00:08.544070 2017] [:error] [pid 15] failed to create table: score_board
+[Sun Sep 17 19:00:08.544085 2017] [:error] [pid 15] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:08.544123 2017] [:error] [pid 15] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:09.286375 2017] [:notice] [pid 20] mod_log_sql: child established database connection
+[Sun Sep 17 19:00:09.289912 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 19:00:09.289927 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 19:00:09.289930 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 19:00:09.290058 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 19:00:09.290066 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:09.290091 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:09.290430 2017] [:error] [pid 20] mysql_query returned (1)
+[Sun Sep 17 19:00:09.290446 2017] [:error] [pid 20] table does not exist, preserving query
+[Sun Sep 17 19:00:09.290451 2017] [:error] [pid 20] table doesn't exist...creating now
+[Sun Sep 17 19:00:09.290638 2017] [:error] [pid 20] failed to create table: score_board
+[Sun Sep 17 19:00:09.290651 2017] [:error] [pid 20] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:09.290682 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:09.988061 2017] [:notice] [pid 17] mod_log_sql: child established database connection
+[Sun Sep 17 19:00:09.991517 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 19:00:09.991534 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 19:00:09.991537 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 19:00:09.991676 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 19:00:09.991684 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:09.991709 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:09.991884 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 19:00:09.991918 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 19:00:09.991922 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 19:00:09.992049 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 19:00:09.992059 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:09.992072 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:10.780581 2017] [:notice] [pid 18] mod_log_sql: child established database connection
+[Sun Sep 17 19:00:10.784391 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 19:00:10.784409 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 19:00:10.784412 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 19:00:10.784572 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 19:00:10.784584 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:10.784612 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:10.784850 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 19:00:10.784861 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 19:00:10.784863 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 19:00:10.785018 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 19:00:10.785029 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:10.785044 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:11.564155 2017] [:notice] [pid 18] mod_log_sql: child established database connection
+[Sun Sep 17 19:00:11.567759 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 19:00:11.567780 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 19:00:11.567783 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 19:00:11.567938 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 19:00:11.567967 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:11.568005 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:00:11.568231 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 19:00:11.568256 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 19:00:11.568260 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 19:00:11.568468 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 19:00:11.568492 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:00:11.568541 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:09:39.098761 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Sep 17 19:09:39.100749 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.7. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 19:15:50.011954 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 19:15:50.012025 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 19:15:50.020863 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 19:15:50.023068 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 19:15:50.027495 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:15:50.030603 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:15:50.031358 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:15:50.031396 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:15:50.031490 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:15:50.033133 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:15:50.032773 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:15:50.033250 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:15:50.041493 2017] [:error] [pid 15] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:15:50.041529 2017] [:error] [pid 15] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:15:50.042577 2017] [:error] [pid 15] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:15:50.042603 2017] [:error] [pid 15] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:15:50.044106 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:15:50.044590 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:15:50.044666 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:15:50.044683 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:15:50.044961 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:15:50.044978 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:15:50.045339 2017] [:error] [pid 16] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:15:50.045635 2017] [:error] [pid 16] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:16:11.843379 2017] [:notice] [pid 15] mod_log_sql: child established database connection
+[Sun Sep 17 19:16:11.843755 2017] [:error] [pid 15] mysql_query returned (1)
+[Sun Sep 17 19:16:11.843765 2017] [:error] [pid 15] table does not exist, preserving query
+[Sun Sep 17 19:16:11.843768 2017] [:error] [pid 15] table doesn't exist...creating now
+[Sun Sep 17 19:16:11.850540 2017] [:error] [pid 15] tables successfully created - retrying query
+[Sun Sep 17 19:16:11.866263 2017] [:notice] [pid 15] query successful after table creation
+[Sun Sep 17 19:16:11.866601 2017] [:error] [pid 15] mysql_query returned (1)
+[Sun Sep 17 19:16:11.866615 2017] [:error] [pid 15] table does not exist, preserving query
+[Sun Sep 17 19:16:11.866618 2017] [:error] [pid 15] table doesn't exist...creating now
+[Sun Sep 17 19:16:11.866791 2017] [:error] [pid 15] failed to create table: score_board
+[Sun Sep 17 19:16:11.866803 2017] [:error] [pid 15] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:11.867582 2017] [:error] [pid 15] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:11.868022 2017] [:error] [pid 15] mysql_query returned (1)
+[Sun Sep 17 19:16:11.868032 2017] [:error] [pid 15] table does not exist, preserving query
+[Sun Sep 17 19:16:11.868035 2017] [:error] [pid 15] table doesn't exist...creating now
+[Sun Sep 17 19:16:11.868177 2017] [:error] [pid 15] failed to create table: score_board
+[Sun Sep 17 19:16:11.868188 2017] [:error] [pid 15] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:11.868207 2017] [:error] [pid 15] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:17.189757 2017] [:notice] [pid 18] mod_log_sql: child established database connection
+[Sun Sep 17 19:16:17.210177 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 19:16:17.210197 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 19:16:17.210201 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 19:16:17.210337 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 19:16:17.210357 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:17.210438 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:17.210703 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 19:16:17.210717 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 19:16:17.210721 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 19:16:17.211033 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 19:16:17.211041 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:17.211084 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:18.513711 2017] [:notice] [pid 16] mod_log_sql: child established database connection
+[Sun Sep 17 19:16:18.517063 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 19:16:18.517079 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 19:16:18.517081 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 19:16:18.517209 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 19:16:18.517218 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:18.517254 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:18.517430 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 19:16:18.517437 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 19:16:18.517440 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 19:16:18.517563 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 19:16:18.517580 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:18.517643 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:19.546591 2017] [:notice] [pid 17] mod_log_sql: child established database connection
+[Sun Sep 17 19:16:19.549941 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 19:16:19.549958 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 19:16:19.549961 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 19:16:19.550064 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 19:16:19.550074 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:19.550101 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:19.550257 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 19:16:19.550266 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 19:16:19.550269 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 19:16:19.550370 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 19:16:19.550380 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:19.550395 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:20.330730 2017] [:notice] [pid 19] mod_log_sql: child established database connection
+[Sun Sep 17 19:16:20.332402 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 19:16:20.332421 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 19:16:20.332425 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 19:16:20.332601 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 19:16:20.332616 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:20.332648 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:20.332903 2017] [:error] [pid 19] mysql_query returned (1)
+[Sun Sep 17 19:16:20.332914 2017] [:error] [pid 19] table does not exist, preserving query
+[Sun Sep 17 19:16:20.332918 2017] [:error] [pid 19] table doesn't exist...creating now
+[Sun Sep 17 19:16:20.333069 2017] [:error] [pid 19] failed to create table: score_board
+[Sun Sep 17 19:16:20.333091 2017] [:error] [pid 19] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:20.333112 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:21.832642 2017] [:notice] [pid 16] mod_log_sql: child established database connection
+[Sun Sep 17 19:16:21.834399 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 19:16:21.834444 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 19:16:21.834449 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 19:16:21.834596 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 19:16:21.834606 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:21.834641 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:21.834824 2017] [:error] [pid 16] mysql_query returned (1)
+[Sun Sep 17 19:16:21.834837 2017] [:error] [pid 16] table does not exist, preserving query
+[Sun Sep 17 19:16:21.834842 2017] [:error] [pid 16] table doesn't exist...creating now
+[Sun Sep 17 19:16:21.834987 2017] [:error] [pid 16] failed to create table: score_board
+[Sun Sep 17 19:16:21.834998 2017] [:error] [pid 16] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:21.835013 2017] [:error] [pid 16] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:22.552598 2017] [:notice] [pid 18] mod_log_sql: child established database connection
+[Sun Sep 17 19:16:22.554842 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 19:16:22.554866 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 19:16:22.554919 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 19:16:22.555140 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 19:16:22.555159 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:22.555215 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:22.555598 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 19:16:22.555625 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 19:16:22.555630 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 19:16:22.555778 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 19:16:22.555793 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:22.555851 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:24.626783 2017] [:error] [pid 25] mysql_query returned (1)
+[Sun Sep 17 19:16:24.626802 2017] [:error] [pid 25] table does not exist, preserving query
+[Sun Sep 17 19:16:24.626805 2017] [:error] [pid 25] table doesn't exist...creating now
+[Sun Sep 17 19:16:24.626914 2017] [:error] [pid 25] failed to create table: score_board
+[Sun Sep 17 19:16:24.626930 2017] [:error] [pid 25] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:24.626960 2017] [:error] [pid 25] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:16:24.627170 2017] [:error] [pid 25] mysql_query returned (1)
+[Sun Sep 17 19:16:24.627177 2017] [:error] [pid 25] table does not exist, preserving query
+[Sun Sep 17 19:16:24.627180 2017] [:error] [pid 25] table doesn't exist...creating now
+[Sun Sep 17 19:16:24.627313 2017] [:error] [pid 25] failed to create table: score_board
+[Sun Sep 17 19:16:24.627326 2017] [:error] [pid 25] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:16:24.627342 2017] [:error] [pid 25] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:19:13.318893 2017] [:notice] [pid 17] mod_log_sql: child established database connection
+[Sun Sep 17 19:19:13.334387 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 19:19:13.334426 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 19:19:13.334432 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 19:19:13.334632 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 19:19:13.334674 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:19:13.334736 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:19:13.335133 2017] [:error] [pid 17] mysql_query returned (1)
+[Sun Sep 17 19:19:13.335165 2017] [:error] [pid 17] table does not exist, preserving query
+[Sun Sep 17 19:19:13.335172 2017] [:error] [pid 17] table doesn't exist...creating now
+[Sun Sep 17 19:19:13.335428 2017] [:error] [pid 17] failed to create table: score_board
+[Sun Sep 17 19:19:13.335444 2017] [:error] [pid 17] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:19:13.335528 2017] [:error] [pid 17] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:19:14.004785 2017] [:error] [pid 15] mysql_query returned (1)
+[Sun Sep 17 19:19:14.004808 2017] [:error] [pid 15] table does not exist, preserving query
+[Sun Sep 17 19:19:14.004811 2017] [:error] [pid 15] table doesn't exist...creating now
+[Sun Sep 17 19:19:14.004958 2017] [:error] [pid 15] failed to create table: score_board
+[Sun Sep 17 19:19:14.004983 2017] [:error] [pid 15] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:19:14.005041 2017] [:error] [pid 15] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:19:14.005365 2017] [:error] [pid 15] mysql_query returned (1)
+[Sun Sep 17 19:19:14.005377 2017] [:error] [pid 15] table does not exist, preserving query
+[Sun Sep 17 19:19:14.005381 2017] [:error] [pid 15] table doesn't exist...creating now
+[Sun Sep 17 19:19:14.005541 2017] [:error] [pid 15] failed to create table: score_board
+[Sun Sep 17 19:19:14.005556 2017] [:error] [pid 15] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:19:14.005577 2017] [:error] [pid 15] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:19:14.602486 2017] [:notice] [pid 15] mod_log_sql: child established database connection
+[Sun Sep 17 19:19:14.608562 2017] [:error] [pid 15] mysql_query returned (1)
+[Sun Sep 17 19:19:14.608594 2017] [:error] [pid 15] table does not exist, preserving query
+[Sun Sep 17 19:19:14.608600 2017] [:error] [pid 15] table doesn't exist...creating now
+[Sun Sep 17 19:19:14.608763 2017] [:error] [pid 15] failed to create table: score_board
+[Sun Sep 17 19:19:14.608777 2017] [:error] [pid 15] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:19:14.608836 2017] [:error] [pid 15] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:19:14.609111 2017] [:error] [pid 15] mysql_query returned (1)
+[Sun Sep 17 19:19:14.609127 2017] [:error] [pid 15] table does not exist, preserving query
+[Sun Sep 17 19:19:14.609132 2017] [:error] [pid 15] table doesn't exist...creating now
+[Sun Sep 17 19:19:14.609382 2017] [:error] [pid 15] failed to create table: score_board
+[Sun Sep 17 19:19:14.609393 2017] [:error] [pid 15] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:19:14.609413 2017] [:error] [pid 15] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:19:16.546934 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 19:19:16.546960 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 19:19:16.546966 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 19:19:16.547113 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 19:19:16.547131 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:19:16.547198 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:19:16.547517 2017] [:error] [pid 18] mysql_query returned (1)
+[Sun Sep 17 19:19:16.547549 2017] [:error] [pid 18] table does not exist, preserving query
+[Sun Sep 17 19:19:16.547558 2017] [:error] [pid 18] table doesn't exist...creating now
+[Sun Sep 17 19:19:16.547716 2017] [:error] [pid 18] failed to create table: score_board
+[Sun Sep 17 19:19:16.547728 2017] [:error] [pid 18] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:19:16.547777 2017] [:error] [pid 18] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:19:17.249545 2017] [:error] [pid 25] mysql_query returned (1)
+[Sun Sep 17 19:19:17.249570 2017] [:error] [pid 25] table does not exist, preserving query
+[Sun Sep 17 19:19:17.249575 2017] [:error] [pid 25] table doesn't exist...creating now
+[Sun Sep 17 19:19:17.249716 2017] [:error] [pid 25] failed to create table: score_board
+[Sun Sep 17 19:19:17.249729 2017] [:error] [pid 25] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:19:17.249769 2017] [:error] [pid 25] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:19:17.249949 2017] [:error] [pid 25] mysql_query returned (1)
+[Sun Sep 17 19:19:17.249964 2017] [:error] [pid 25] table does not exist, preserving query
+[Sun Sep 17 19:19:17.249969 2017] [:error] [pid 25] table doesn't exist...creating now
+[Sun Sep 17 19:19:17.250131 2017] [:error] [pid 25] failed to create table: score_board
+[Sun Sep 17 19:19:17.250145 2017] [:error] [pid 25] (1)Operation not permitted: child attempted but failed to create one or more tables for 10.211.55.16, preserving query
+[Sun Sep 17 19:19:17.250170 2017] [:error] [pid 25] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:20:56.063540 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Sep 17 19:20:56.103344 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 19:21:17.003891 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 19:21:17.003939 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 19:21:17.005923 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:17.005969 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:21:17.006209 2017] [:error] [pid 22] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:17.006237 2017] [:error] [pid 22] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:21:17.007220 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:17.007252 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:21:17.008233 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:17.008269 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:21:17.009841 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:17.009867 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.7. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 17 19:21:18.003198 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/5.6.31 configured -- resuming normal operations
+[Sun Sep 17 19:21:18.003263 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 17 19:21:18.008194 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:18.008217 2017] [:error] [pid 20] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:21:18.008485 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:18.008511 2017] [:error] [pid 19] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:21:18.009767 2017] [:error] [pid 18] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:18.009818 2017] [:error] [pid 18] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:21:18.011236 2017] [:error] [pid 21] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:18.011274 2017] [:error] [pid 21] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:21:18.014427 2017] [:error] [pid 17] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:18.014447 2017] [:error] [pid 17] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:21:19.517089 2017] [:error] [pid 19] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:19.517155 2017] [:error] [pid 19] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:21:20.010279 2017] [:error] [pid 27] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:20.010320 2017] [:error] [pid 27] mod_log_sql: child spawned but unable to open database link
+[Sun Sep 17 19:21:20.616883 2017] [:error] [pid 20] mod_log_sql_mysql: database connection error: mysql error: Can't connect to MySQL server on 'mysql' (111)
+[Sun Sep 17 19:21:20.616922 2017] [:error] [pid 20] (13)Permission denied: attempted append of local preserve file '/var/log/mod_log_sql-preserve' but failed.
+[Sun Sep 17 19:21:27.003426 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Sep 17 19:21:27.057373 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
